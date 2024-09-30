@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>registration Form</h1>
+    <form action="/process" method="post">
+        <div> 
+            <label>first name:*</label>
+            <input type="text">
+        </div>
+        <div> 
+            <label>last name:*</label>
+            <input type="text">
+        </div>
+        <div> 
+            <label>Email Address:*</label>
+            <input type="text">
+        </div>
+        <div> 
+            <label>password:*</label>
+            <input type="password">
+        </div>
+        <div> 
+            <label>confirm password:*</label>
+            <input type="password">
+        </div>
+        <div> 
+            <label>birthday:*</label>
+            <input type="date">
+        </div>
+        <div>
+            <label>Gender Identity:</label>
+        </div>
+        <div>
+            <input type="radio" name="Gender"><label>male</label>
+            <input type="radio" name="Gender"><label>female</label>
+            <input type="radio" name="Gender"><label>Non-binary</label>
+            <input type="radio" name="Gender"><label>i prefer not to answer</label>
+        </div>
+        <div>
+            <label>A short description about myself:</label>
+        </div>
+        <div>
+            <textarea name="description" cols="40" rows="5"></textarea>
+        </div>
+        <div>
+            <label>fovorite language:</label>
+            <select>
+                <option value="javaScript">javaScript</option>
+                <option value="python">python</option>
+                <option value="java">java</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox"><label>Yes,I would like to receive periodic email updates</label>
+        </div>
+        <div>
+            <input type="submit" value="create Account">
+        </div>
+        <p>*Indicates a required field </p>
+    </form>
+
+</body>
+</html>
