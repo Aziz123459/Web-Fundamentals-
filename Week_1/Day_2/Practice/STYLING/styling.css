@@ -1,0 +1,23 @@
+h1{
+   background-color:#000000 ;
+   text-align: left;
+   color: aqua;
+   
+}
+.t1 span{
+    color: azure;
+
+}
+h2{
+    background-color: #663399;
+    text-align: center;
+    color: azure;
+    font-style: oblique;
+}
+h3{
+    background-color:#9FC5F8 ;
+    text-align: right;
+    text-decoration: underline ;
+    
+    
+}
