@@ -1,10 +1,9 @@
 h1{
-   background-color:#000000 ;
-   text-align: left;
-   color: aqua;
-   
+    background-color:#000000 ;
+    text-align: left;
+    color: aqua;
 }
-.t1 span{
+span{
     color: azure;
 
 }
