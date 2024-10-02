@@ -1,5 +1,10 @@
-.title{
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
     background-color:#EAF0FF ;
+    
 }
 h1{
     text-align: center;
