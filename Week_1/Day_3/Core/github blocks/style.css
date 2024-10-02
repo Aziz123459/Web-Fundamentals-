@@ -4,6 +4,8 @@ body{
 }
 .container{
     background-color:#EAF0FF ;
+    width: 800px;
+    height: 900px;
     
 }
 h1{
