@@ -1,0 +1,58 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    display: flex;
+    width: 800px;
+    height: 900px;
+    
+}
+.box{
+    border: solid #CCCCCC;
+    width: 800px;
+    height:auto;
+}
+
+.user{
+    background-color:#17A2B8;
+}
+.user-circle{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 45px;
+    left: 20px;
+}
+.box2{
+    position: relative;
+    left: 20px;
+}
+.gear{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 4px;
+}
+.map-marker{
+    width: 10px;
+    height: 20px;
+    
+    
+}
+.name{
+    margin: 40px 20px 20px 20px;
+}
+.seattle{
+    position: relative;
+    bottom: 15px;
+}
+.master{
+    position: relative;
+    bottom: 5PX;
+}
+.dev{
+    position: relative;
+    bottom: 5PX;
+}
+
