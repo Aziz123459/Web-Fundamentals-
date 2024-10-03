@@ -1,0 +1,183 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    width: auto;
+    height: auto;
+    
+}
+.container{
+    border: solid #CCCCCC;
+    height: auto;
+    width: auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #121212;
+}
+.nav-links{
+    display: flex;
+}
+li{
+    display: flex;
+    margin: 20px;
+    
+}
+.active{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    
+}
+.btn{
+    background-color: #17A2B8;
+    font-size: large;
+    box-shadow: 5px 5px 0px black;
+    color: aliceblue;
+}
+.nav-title{
+    color: aliceblue;
+    margin-left: 20px;
+    font-family: "Roboto", sans-serif;
+}
+/*******************************************/
+.box{
+    border: solid #CCCCCC;
+    width: 400px;
+    height:auto;
+    position: relative;
+    right: 150PX;
+    top: 15px;
+}
+
+.user{
+    background-color:#17A2B8;
+}
+.user-circle{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 45px;
+    left: 20px;
+    border-radius: 100%;
+}
+.box2{
+    position: relative;
+    left: 20px;
+}
+.gear{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 4px;
+}
+.edit{
+    color: #165695;
+}
+.map-marker{
+    width: 10px;
+    height: 20px;
+    
+    
+}
+.name{
+    margin: 40px 20px 20px 20px;
+}
+.seattle{
+    position: relative;
+    bottom: 15px;
+}
+.master{
+    position: relative;
+    bottom: 5PX;
+}
+.dev{
+    position: relative;
+    bottom: 5PX;
+}
+/*******************************************/
+.eduction{
+    border:solid #CCCCCC;
+    position: relative;
+    right: 150PX;
+    top: 50px;
+    width: 400px;
+    height:auto;
+    
+}
+.ed{
+    background-color: #333333;
+    color: aliceblue;
+    padding: 10px 25PX;
+}
+.co{
+    margin-left: 20px;
+}
+/*******************************************/
+.requests{
+    position: relative;
+    border: solid #CCCCCC;
+    left: 200px;
+    bottom: 369px;
+    width: 200PX;
+    height: 150px;
+    
+}
+.con{
+    background-color: #333333;
+    color: aliceblue;
+    padding: 10px 25PX;
+    
+}
+.f1{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+}
+.f2{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+    
+}
+.yes{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 6px;
+    left: 35PX;
+    
+}
+.no{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 6px;
+    left: 40PX;
+    
+}
+/*******************************************/
+.connect{
+    position: relative;
+    border: solid #CCCCCC;
+    left: 200px;
+    bottom: 300px;
+    width: 200PX;
+    height: 275px;
+}
+.friends{
+    background-color: #333333;
+    color: aliceblue;
+    padding: 10px 25PX;
+}
+.view{
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
