@@ -1,16 +1,18 @@
-function fizzbuzz(number){
-    if(number%3==0 && number%5==0){
-        return "fizzbuzz"
-    }
-    if(number%3==0){
-        return "fizz"
-    }
-    if(number%5==0){
-        return "buzz"
-    }
+function fizzbuzz(){
+    for( var number=1;number<=100;number++){
+        if(number%3==0 && number%5==0){
+            console.log ("fizzbuzz")
+        }
+        if(number%3==0){
+            console.log("fizz")
+        }
+        if(number%5==0){
+            console.log("buzz")
+        }
     
-    else{
-        return number
+        else{
+            console.log(number)
+        }
     }
 }
-console.log(fizzbuzz(15))
+fizzbuzz()
