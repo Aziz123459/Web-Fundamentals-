@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    font-family: cursive;
+    
+}
+.barre{
+    background-color: #CCCCCC;
+    width: 665px;
+    padding: 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login{
+    background-color: #2B78E4;
+    color: aliceblue;
+    width: 60pX;
+    height: 30px;
+}
+input{
+    border: solid black;
+    height: 30px;
+    width: 300px;
+}
+.nin1{
+    border: solid black;
+    
+    margin: 20px 0px;
+    width: 400px;
+    height: 140px;
+}
+.post1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.dis1{
+    position: relative;
+    top: 20px;
+    left: 4px;
+}
+.like1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.likes1{
+    background-color: #FFD966;
+    box-shadow: 2px 2pX 0pX black;
+    width: 80px;
+    height: 30px;
+}
+a{
+    color: #135B98;
+}
+.defined{
+    border: solid black;
+    margin: 20px 0px;
+    width: 200px;
+    height: 75px;
+}
+.def{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    background-color: green;
+    box-shadow: 2px 2pX 0pX black;
+    width: 130px;
+    height: 25px;
+}
+.box{
+    display: flex;
+}
+.box2{
+    width: 500PX;
+    
+}
