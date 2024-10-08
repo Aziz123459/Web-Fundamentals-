@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100px;
+    width: 600px;
+    margin:10px auto;
+    font-family: sans-serif;
+}
+.net{
+    color: white;
+    background-color: black;
+    padding:0px 30px;
+}
+.feed{
+    text-align: center;
+}
+.block{
+    display: flex;
+}
+.box1{
+    border: solid black;
+    width: 400px;
+    margin: 20px;
+    
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 10px;
+}
+p{
+    
+    margin: 20px;
+}
+.like1{
+    background-color: #FFD966;
+    width: 50px;
+    height: 25px;
+    box-shadow: 2px 2px 0 black;
+}
+.ava{
+    display: flex;
+}
+.avatar{
+    border: solid black;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+img{
+    width: 50px;
+    margin-left: 20px;
+}
+.add{
+    text-decoration: underline;
+    color: #125A98;
+}
+a{
+    color: #125A98;
+}
