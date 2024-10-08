@@ -12,5 +12,5 @@ function increase(element){
 }
 function changename(element){
     var c=document.querySelector(element);
-    c.innerText="aziz";
+    c.innerText="any name";
 }
